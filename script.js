@@ -32,7 +32,6 @@ function generateSnake() {
     return [posX, posY];
 }
 let coordinates = generateSnake();
-console.log(coordinates);
 
 let snakeBody = [document.querySelector('[posX = "' + coordinates[0] + '"][posY = "' + coordinates[1] + '"]'),
     document.querySelector('[posX = "' + (+coordinates[0] - 1) + '"][posY = "' + coordinates[1] + '"]'),

@@ -23,13 +23,13 @@ body {
 
 /*models*/
 .snakeBody {
-    background: url('scale.jpg');
+    background: url('img/scale.jpg');
     background-size: cover;
     border-radius: 50%;
 }
 
 .head {
-    background: url('head.png');
+    background: url('img/head.png');
     background-size: cover;
     border-radius: 10%;
 }
@@ -37,7 +37,7 @@ body {
 
 /*Mouse*/
 .mouse {
-    background : url('tomato.jpg');
+    background : url('img/tomato.jpg');
     background-size: cover;
     background-color: #cccccc;
 }
